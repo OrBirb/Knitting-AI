@@ -1,26 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import KnittingAI from "./KnittingAI";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to Knitting AI – Your Smart Knitting Assistant!
-        </p>
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <h1>Welcome to Knitting AI – Your Smart Knitting Assistant!</h1>
+            <KnittingAI />
+        </div>
+    );
 }
 
 export default App;
