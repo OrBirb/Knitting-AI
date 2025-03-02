@@ -1,6 +1,3 @@
-import dotenv from 'dotenv';
-dotenv.config();
-
 import React, { useState } from "react";
 
 function KnittingAI() {
